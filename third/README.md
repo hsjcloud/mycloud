@@ -224,4 +224,4 @@ docker run -d -it --privileged=true --name wordpress -p 6060:80 -d centos:hsj9 /
 
 ![](./image/29.png)
 
-http://49.235.61.192:6060/在这里。。。
+http://49.235.61.192:6060/
