@@ -171,3 +171,57 @@ docker push myhsj/centos:apache_web
 
 ![](./image/18.png)
 
+**使用Dockerfile安装wordpress**
+
+第一步：
+
+创建Dcocker文件夹
+
+mkdir Dcoker
+
+文件目录下的文件（事先准备好的）：
+
+![](./image/19.png)
+
+Dockerfile文件内容：
+![](./image/20.png)
+
+![](./image/21.png)
+
+re.sh文件内容：
+
+![](./image/22.png)
+
+start.sql文件内容：
+
+![](./image/23.png)
+
+info.php
+
+![](./image/24.png)
+
+wp-config.php:
+
+![](./image/25.png)
+
+构建镜像：
+
+docker images,ps:
+
+![](./image/26.png)
+
+![](./image/27.png)
+
+运行
+
+```
+docker run -d -it --privileged=true --name wordpress -p 6060:80 -d centos:hsj9 /usr/sbin/init
+```
+
+登入wordpress查看：
+
+![](./image/28.png)
+
+![](./image/29.png)
+
+http://49.235.61.192:6060/在这里。。。
