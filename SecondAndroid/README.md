@@ -10,11 +10,13 @@
 
 **实验效果：**
 
-![1585200690225](C:\Users\hushaojie\AppData\Roaming\Typora\typora-user-images\1585200690225.png)
+![](./image/1.png)
+
+
 
 **利用ConstraintLayout实现如下界面：**
 
-![1585285629643](C:\Users\hushaojie\AppData\Roaming\Typora\typora-user-images\1585285629643.png)
+![](./image/2.png)
 
 ​    **代码如下：**
 
@@ -22,5 +24,5 @@
 
 **运行结果：**
 
-![1585285680908](C:\Users\hushaojie\AppData\Roaming\Typora\typora-user-images\1585285680908.png)
+![](./image/3.png)
 
