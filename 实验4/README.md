@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
 运行的结果：
 
-![](./image/1.png)
+![](.\image\1.png)
 
 **应用二：**
 
